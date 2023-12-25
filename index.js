@@ -11,7 +11,7 @@ const {dotenv} = require('dotenv');
 
 async function fetch()
 {
-    const response = await axios.get('process.env.KEY')
+    const response = await axios.get('process.env.KEY');
     console.log(response.data);
 } 
 fetch();
